@@ -1,0 +1,69 @@
+.side-bar {
+    width: 22%;
+    height: 100%;
+    padding: 1em;
+}
+
+.side-bar .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+
+.profile .avatar {
+    display: inline-block;
+    height: 5em;
+    width: 5em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #5446D1;
+}
+
+.profile .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile .user-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: .5em 0;
+}
+
+.side-bar .menu {
+    background: #1C1E57;
+    position: relative;
+    height: calc(100% - (8em));
+    border-radius: 8px;
+    color: #EDF3F9;
+}
+
+
+.menu .menu-items {
+    padding: 4em 0;
+}
+
+
+.menu .logout-btn {
+    position: absolute;
+    width: 100%;
+    bottom: 1.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8em;
+    cursor: pointer;
+    color: #fff;
+}
+
+.logout-btn i {
+    transform: rotate(180deg);
+}

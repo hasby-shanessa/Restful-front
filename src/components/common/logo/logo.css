@@ -1,0 +1,15 @@
+.logo{
+    padding: 2em 3em;
+}
+
+.logo span{
+    display: inline-block;
+    background: #5446D1;
+    color: #EDF3F9;
+    transform: rotate(-20deg);
+    padding: 0.35em .7em;
+    border-radius: 25% 50% 25% 25%; 
+    box-shadow: 0 0 0.5em #5446D1;
+    margin-right: .2em;
+    text-transform: uppercase;
+}

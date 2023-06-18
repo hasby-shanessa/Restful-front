@@ -1,0 +1,21 @@
+.menu-item {
+    list-style: none;
+    padding: 1em 0 1em 1.5em;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.menu-item a {
+    color: #EDF3F9;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+    padding-left: .8em;
+}
+
+.active {
+    border-left: 3px solid #EDF3F9;
+}
