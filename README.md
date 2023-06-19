@@ -8,3 +8,6 @@ http://192.168.8.1/html/home.html
 
 when  using MongoDB locally, mongodb://localhost:27017/db_name fails a lot.
 in that case use mongodb://0.0.0.0:27017/db_name.
+
+
+npm i rest-web-starters
